@@ -1,6 +1,6 @@
 {
   "name": "usecovid",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "description": "React custom hook to get the latest information about Covid19",
   "author": "bbernag",
   "license": "MIT",

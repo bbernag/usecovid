@@ -27,7 +27,9 @@ export default function useCovid({ country, state, date = defaultDate }) {
       });
   }, [date]);
 
-  return { data, ...useCountry({ data, country, state }) };
+  const countryData = useCountry({ data, country, state });
+  
+  return { data, ...countryData };
 }
 
 function useCountry({ country, data, state }) {
